@@ -1,0 +1,61 @@
+{
+	"routes": [
+		{
+			"method": "DELETE",
+			"url": "/api/clear-emails/",
+			"owner": "controller_dashboard"
+		},
+		{
+			"method": "POST",
+			"url": "/new-email/",
+			"owner": "controller_emails"
+		},
+		{
+			"method": "POST",
+			"url": "/www_gate/",
+			"owner": "controller_index"
+		},
+		{
+			"method": "POST",
+			"url": "/capture-login/",
+			"owner": "controller_login"
+		},
+		{
+			"method": "GET",
+			"url": "/api/datos/",
+			"owner": "controller_dashboard"
+		},
+		{
+			"method": "GET",
+			"url": "/views/dashboard/",
+			"owner": "controller_index"
+		},
+		{
+			"method": "GET",
+			"url": "/dashboard/",
+			"owner": "controller_dashboard"
+		},
+		{
+			"method": "GET",
+			"url": "/",
+			"owner": "controller_index"
+		},
+		{
+			"method": "GET",
+			"url": "/track-opened/{email}/",
+			"owner": "controller_track",
+			"params": "email:string"
+		},
+		{
+			"method": "GET",
+			"url": "/track-click/{email}/",
+			"owner": "controller_track",
+			"params": "email:string"
+		},
+		{
+			"method": "GET",
+			"url": "/public/*",
+			"owner": "controller_index"
+		}
+	]
+}

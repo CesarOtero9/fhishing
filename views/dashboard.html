@@ -1,0 +1,43 @@
+@{layout('')}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script defer src="/conteo.js"></script>
+    <link rel="stylesheet" href="/dashboard-style.css">
+
+
+</head>
+<body>
+    <div class="encabezado">
+        <h1 class="letra_encabezado">----------DASHBOARD----------</h1>
+        <h2 class="letra_encabezado">Envío de Correos</h2>
+    </div>
+    
+    <h2 class="textos">Correos Enviados</h2>
+    <button id="clear-emails" style="background-color: red; color: white; padding: 10px; border: none; cursor: pointer; margin-top: 10px;"> Limpiar Correos</button>
+
+    <div>
+        <p><strong>Total de correos enviados:</strong> <span id="total-emails">0</span></p>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>¿Fue abierto?</th>
+                <th>¿Se le dio click?</th>
+            </tr>
+        </thead>
+        <tbody id="emails-list">
+        </tbody>
+    </table>
+
+    <h2>Enviar Nuevo Correo</h2>
+    <input type="email" id="email-input" placeholder="Escribe un correo válido..." required pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+">
+    <button id="send-email-btn">Enviar</button>
+
+
+</body>
+</html>
