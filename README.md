@@ -1,1 +1,4 @@
 # email-phishing
+Este proyecto es una aplicación diseñada para simular el rastreo de correos electrónicos con fines educativos y de prueba. Permite enviar correos electrónicos y registrar cuándo han sido abiertos o si el destinatario ha hecho clic en un enlace dentro del correo. Se basa en Node.js con el framework Total.js, y usa MailHog para capturar los correos enviados en un entorno de pruebas.
+
+La aplicación incluye un dashboard interactivo, donde se pueden visualizar los correos enviados junto con su estado (si fueron abiertos o si se hizo clic en ellos). También cuenta con una interfaz web que simula un sistema real para que los destinatarios ingresen credenciales falsas con el fin de analizar cómo se comportan en este tipo de ataques.

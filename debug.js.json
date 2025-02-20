@@ -16,7 +16,7 @@
 			"thread": "",
 			"mode": "debug",
 			"overload": 0,
-			"date": "2025-02-20T17:56:00.869Z",
+			"date": "2025-02-20T17:58:00.895Z",
 			"textdb": {
 				"size": 0.002,
 				"pendingwrite": 0,
@@ -26,7 +26,7 @@
 				"reading": 0,
 				"writing": 0
 			},
-			"memory": 11.2,
+			"memory": 11.25,
 			"rm": 12,
 			"fm": 0,
 			"wm": 0,
@@ -40,16 +40,16 @@
 			"cm": 0,
 			"dbrm": 0,
 			"dbwm": 0,
-			"usage": 4,
-			"requests": 194,
+			"usage": 2,
+			"requests": 218,
 			"pending": 0,
 			"external": 0,
 			"errors": 0,
 			"timeouts": 0,
 			"online": 0,
-			"uptime": 14,
+			"uptime": 16,
 			"download": 0,
-			"upload": 0.02,
+			"upload": 0.021,
 			"status": []
 		}
 	]
